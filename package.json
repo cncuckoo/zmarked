@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "zmarked",
+        "scope": null,
+        "escapedName": "zmarked",
+        "name": "zmarked",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/lisongfeng/Projects/qiwoo_fanyi"
+    ]
+  ],
+  "_cnpm_publish_time": 1491994553783,
+  "_from": "zmarked@latest",
+  "_hasShrinkwrap": false,
+  "_id": "zmarked@0.1.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/zmarked",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/zmarked-0.1.1.tgz_1491994553524_0.6744092204608023"
+  },
+  "_npmUser": {
+    "name": "lisongfeng",
+    "email": "lsf@lisongfeng.cn"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "zmarked",
+    "scope": null,
+    "escapedName": "zmarked",
+    "name": "zmarked",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/zmarked/download/zmarked-0.1.1.tgz",
+  "_shasum": "55e6d6a34644a1a0a1c33684784ab37aacddfe37",
+  "_shrinkwrap": null,
+  "_spec": "zmarked",
+  "_where": "/Users/lisongfeng/Projects/qiwoo_fanyi",
+  "author": {
+    "name": "Songfeng Li"
+  },
+  "bin": {
+    "zmarked": "./bin/marked"
+  },
+  "bugs": {
+    "url": "http://github.com/cncuckoo/zmarked/issues"
+  },
+  "dependencies": {
+    "lexed" : "1.0.10"
+  },
+  "description": "Based on [marked](https://github.com/chjj/marked), zmarked can be used to generate HTML that include sentences and subsentencs-level rather than only reach the paragraph-level.",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.1.0",
+    "markdown": "*",
+    "showdown": "*"
+  },
+  "directories": {
+    "parse-english" : "4.0.0",
+    "lexed" : "1.0.10"
+  },
+  "dist": {
+    "shasum": "55e6d6a34644a1a0a1c33684784ab37aacddfe37",
+    "size": 21630,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/zmarked/download/zmarked-0.1.1.tgz"
+  },
+  "gitHead": "1935ed15f353c084cb8431181d8604a43f34642f",
+  "homepage": "https://github.com/cncuckoo/zmarked",
+  "keywords": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./lib/zmarked.js",
+  "maintainers": [
+    {
+      "name": "lisongfeng",
+      "email": "lsf@lisongfeng.cn"
+    }
+  ],
+  "man": [
+    "./man/zmarked.1"
+  ],
+  "name": "zmarked",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "publish_time": 1491994553783,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cncuckoo/zmarked.git"
+  },
+  "scripts": {
+    "bench": "node test --bench",
+    "test": "node test"
+  },
+  "tags": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "version": "0.1.6"
+}
